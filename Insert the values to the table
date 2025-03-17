@@ -1,0 +1,9 @@
+create table employee(
+employee_id int primary key,
+name VARCHAR (25),
+department_id Int);
+
+//inserting value
+
+Insert into employee( employee_id,name, department_id)
+Values (1,'Manoj',10),(2,'Rahul',20),(3,'aravind', 10), (4,'ajay',30);
