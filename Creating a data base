@@ -1,0 +1,4 @@
+//syntax
+
+Create database databasename;
+use databasename; 
