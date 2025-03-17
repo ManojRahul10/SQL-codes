@@ -33,4 +33,33 @@ inner join department on employee.department_id=department.department_id;
 
 update department SET department_id = 40 where department_name='CS';
 
+----------------------
+
+Left join:
+
+create database database2;
+use database2;
+
+create table employee(
+employee_id int primary key,
+name VARCHAR (25),
+department_id Int);
+
+create table department(
+department_id int primary key,
+department_name VARCHAR(25));
+
+Insert into employee( employee_id,name, department_id)
+Values (1,'Manoj',10),(2,'Rahul',20),(3,'aravind', 10), (4,'ajay',30);
+
+Insert into department( department_id, department_name)
+Values (10,'HR'),(20,'IT'),(30,'CS');
+
+update department SET department_id = 40 where department_name='CS';
+
+select * from employee
+left join department on employee.department_id=department.department_id;
+
+
+
 
