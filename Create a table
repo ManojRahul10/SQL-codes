@@ -1,0 +1,5 @@
+//syntax for creating a table
+
+create table tablename(
+//fields
+);
