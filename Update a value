@@ -7,5 +7,4 @@ Insert into department( department_id, department_name)
 Values (10,'HR'),(20,'IT'),(30,'CS');
 
 //Updation
-
 update department SET department_id = 40 where department_name='CS';
