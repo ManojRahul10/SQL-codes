@@ -18,3 +18,8 @@
 - Example: `customer_id` in an Orders table referencing the Customers table
 
 
+**Key Differences:**
+- Primary keys identify records within their own table, while foreign keys reference records in other tables
+- Primary keys enforce uniqueness, foreign keys enforce relationships
+- A table must have a primary key, but foreign keys are optional
+- Foreign keys can reference their own table (self-referencing)
