@@ -9,6 +9,8 @@ Constrains: used to limit the type of data that can go into a table.
 6. Default
 
 Here foreign key is child and primary key in parent or reference
+
+
 ------------------------------------------------------------------------------------------------
 # Primary Key vs Foreign Key in SQL
 
@@ -39,7 +41,6 @@ Here foreign key is child and primary key in parent or reference
 
 
 ----------------------------------------------------------------------------------
-
 create database constrains;
 use constrains;
 
