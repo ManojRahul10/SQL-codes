@@ -7,3 +7,14 @@
 - Only one primary key per table (though it can consist of multiple columns)
 - Creates a clustered index by default (in many database systems)
 - Example: `customer_id` in a Customers table
+
+
+**Foreign Key:**
+- References a primary key in another table
+- Creates a relationship between two tables
+- Can contain NULL values (unless constrained otherwise)
+- Can have multiple foreign keys in a table
+- Used to maintain referential integrity
+- Example: `customer_id` in an Orders table referencing the Customers table
+
+
