@@ -1,0 +1,9 @@
+# Primary Key vs Foreign Key in SQL
+
+**Primary Key:**
+- Uniquely identifies each record in a table
+- Cannot contain NULL values
+- Must be unique for each record
+- Only one primary key per table (though it can consist of multiple columns)
+- Creates a clustered index by default (in many database systems)
+- Example: `customer_id` in a Customers table
