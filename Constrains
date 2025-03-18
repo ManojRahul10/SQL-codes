@@ -1,3 +1,13 @@
+1. Not Null
+2. Unique
+3. Primary key
+4. Foreign key
+5. Check
+6. Default
+
+Here foreign key is child and primary key in parent or reference
+
+------------------------------------------------------------------------------------------------
 # Primary Key vs Foreign Key in SQL
 
 **Primary Key:**
@@ -23,3 +33,21 @@
 - Primary keys enforce uniqueness, foreign keys enforce relationships
 - A table must have a primary key, but foreign keys are optional
 - Foreign keys can reference their own table (self-referencing)
+
+
+
+----------------------------------------------------------------------------------
+
+create database constrains;
+use constrains;
+
+create table dept(
+deptid int primary key,
+deptname varchar(30));
+
+create table emp(
+empid int primary key,
+name varchar(20),
+deptid int,
+foreign key(deptid) references dept(deptid));
+
