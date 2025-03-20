@@ -24,7 +24,7 @@ values
 (9,'vicky','vicky@gmail.com',21, 109);
 ----------------------------------
 
-default values will be inserted
+default values will be inserted even if you didnt call
 syntax///
 
 Alter table tablename
