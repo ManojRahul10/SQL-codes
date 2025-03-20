@@ -22,10 +22,11 @@ ADD CONSTRAINT def_salary DEFAULT 30000.00 FOR salary;
 insert into employeess(empids,empnames, empemail,age,departid)
 values
 (9,'vicky','vicky@gmail.com',21, 109);
-----------------------------------
 
-default values will be inserted even if you didnt call
 syntax///
 
 Alter table tablename
 add constraint def_salary default 300000 for col
+----------------------------------
+
+default values will be inserted even if you didnt call
