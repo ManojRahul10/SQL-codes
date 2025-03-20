@@ -19,4 +19,5 @@ select * from employeess;
 alter table employeess
 add constraint uniqueemail unique(empemail);
 
- changes the values into unique one if you insert another value with same name it will show error
+---------------------------
+ changes the values into unique one if you insert another value with same name it will show error.
