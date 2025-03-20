@@ -18,3 +18,5 @@ select * from employeess;
 
 alter table employeess 
 add constraint checkage Check (age>=18);
+
+checks the condition and if you insert another values with the age lesser than the condition it will fail
