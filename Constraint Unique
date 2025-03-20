@@ -16,3 +16,5 @@ Values
 
 select * from employeess;
 
+alter table employeess
+add constraint uniqueemail unique(empemail);
