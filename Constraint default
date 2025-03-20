@@ -15,3 +15,10 @@ Values
 (5,'Surya','surya@gmal.com', 22, 15000.98, 105);
 
 select * from employeess;
+
+ALTER TABLE employeess
+ADD CONSTRAINT def_salary DEFAULT 30000.00 FOR salary;
+
+insert into employeess(empids,empnames, empemail,age,departid)
+values
+(9,'vicky','vicky@gmail.com',21, 109);
