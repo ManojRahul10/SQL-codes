@@ -3,34 +3,21 @@ Functions : it is a predefined operations that perform specific table like calcu
 2) Aggregate function
 
 
+Definition of Scalar Functions
+A Scalar Function in SQL operates on a single value and returns a single value as output. It is used to perform operations like string manipulation, mathematical calculations, and date formatting.
 
-Scalar Functions in SQL**  
-
-A **Scalar Function** in SQL returns a **single value** (scalar value) for each row in a query. These functions perform operations like string manipulation, mathematical calculations, or date formatting.  
-
-✅ **Key Points**  
-- Operates on a single value.  
-- Returns a single value per row.  
-- Can be used in `SELECT` statements.  
-
----
-
-## **Types of Scalar Functions**
-### **1. String Functions**  
-🔹 **`UPPER()`** – Converts text to uppercase.  
-🔹 **`LOWER()`** – Converts text to lowercase.  
-🔹 **`CONCAT()`** – Joins multiple strings.  
-🔹 **`LEN()` or `LENGTH()`** – Returns string length.  
-🔹 **`SUBSTRING()`** – Extracts part of a string.  
+Examples of Scalar Functions:
+String Functions: UPPER(), LOWER(), CONCAT()
+Math Functions: ROUND(), ABS(), FLOOR()
+Date Functions: NOW(), YEAR(), DATEDIFF()
+System Functions: USER(), DATABASE()
 --------------------------------------------------------------------------------------------
-Definition of Aggregate Functions 
-Aggregate functions in SQL perform calculations on **multiple rows** and return a **single value** as output. They are commonly used with the `GROUP BY` clause to summarize data.  
+Definition of Aggregate Functions
+Aggregate functions in SQL perform calculations on multiple rows and return a single value as output. They are commonly used with the GROUP BY clause to summarize data.
 
-### **Common Aggregate Functions:**  
-- **`SUM()`** – Returns the total sum of a column.  
-- **`AVG()`** – Returns the average value.  
-- **`COUNT()`** – Returns the number of rows.  
-- **`MAX()`** – Returns the maximum value.  
-- **`MIN()`** – Returns the minimum value.  
-
-Would you like an example? 😊
+Common Aggregate Functions:
+SUM() – Returns the total sum of a column.
+AVG() – Returns the average value.
+COUNT() – Returns the number of rows.
+MAX() – Returns the maximum value.
+MIN() – Returns the minimum value.
