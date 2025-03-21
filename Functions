@@ -1,4 +1,10 @@
-### **Scalar Functions in SQL**  
+Functions : it is a predefined operations that perform specific table like calculation, manipulation.
+1) Scalar Function
+2) Aggregate function
+
+
+
+Scalar Functions in SQL**  
 
 A **Scalar Function** in SQL returns a **single value** (scalar value) for each row in a query. These functions perform operations like string manipulation, mathematical calculations, or date formatting.  
 
@@ -16,4 +22,15 @@ A **Scalar Function** in SQL returns a **single value** (scalar value) for each 
 🔹 **`CONCAT()`** – Joins multiple strings.  
 🔹 **`LEN()` or `LENGTH()`** – Returns string length.  
 🔹 **`SUBSTRING()`** – Extracts part of a string.  
+--------------------------------------------------------------------------------------------
+Definition of Aggregate Functions 
+Aggregate functions in SQL perform calculations on **multiple rows** and return a **single value** as output. They are commonly used with the `GROUP BY` clause to summarize data.  
 
+### **Common Aggregate Functions:**  
+- **`SUM()`** – Returns the total sum of a column.  
+- **`AVG()`** – Returns the average value.  
+- **`COUNT()`** – Returns the number of rows.  
+- **`MAX()`** – Returns the maximum value.  
+- **`MIN()`** – Returns the minimum value.  
+
+Would you like an example? 😊
