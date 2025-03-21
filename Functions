@@ -1,0 +1,19 @@
+### **Scalar Functions in SQL**  
+
+A **Scalar Function** in SQL returns a **single value** (scalar value) for each row in a query. These functions perform operations like string manipulation, mathematical calculations, or date formatting.  
+
+✅ **Key Points**  
+- Operates on a single value.  
+- Returns a single value per row.  
+- Can be used in `SELECT` statements.  
+
+---
+
+## **Types of Scalar Functions**
+### **1. String Functions**  
+🔹 **`UPPER()`** – Converts text to uppercase.  
+🔹 **`LOWER()`** – Converts text to lowercase.  
+🔹 **`CONCAT()`** – Joins multiple strings.  
+🔹 **`LEN()` or `LENGTH()`** – Returns string length.  
+🔹 **`SUBSTRING()`** – Extracts part of a string.  
+
