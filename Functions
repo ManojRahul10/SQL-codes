@@ -21,3 +21,38 @@ AVG() – Returns the average value.
 COUNT() – Returns the number of rows.
 MAX() – Returns the maximum value.
 MIN() – Returns the minimum value.
+
+CREATE TABLE mytable(
+names varchar(50),
+cities varchar(50),
+states varchar(50),
+code int primary key);
+
+Insert into mytable (names, cities, states,code)
+values
+('Manoj Rahul','Trichy','Tamilnadu',620010),
+('Aravind','Trichy','Tamilnadu',620012),
+('Ajay','Trichy','Tamilnadu',620013);
+
+--Scalar Function--
+
+select UPPER(names) as uppercase_name from mytable;
+
+select lower(names) as uppercase_name from mytable;
+
+select names, len(names) as length_name from mytable;	
+
+select names, cities, concat( names, ' from ' , cities) as concat_val from mytable;
+
+
+--aggregate function--
+
+SELECT SUM(code) AS total_salary FROM mytable;
+
+Select count(code) as count_Code from mytable;
+
+select  max(code) as max_code from mytable;
+
+select  min(code) as max_code from mytable;
+
+select AVG(code) as avg_code from mytable;
