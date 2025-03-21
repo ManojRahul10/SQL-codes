@@ -13,7 +13,7 @@ Here foreign key is child and primary key in parent or reference
 
 ------------------------------------------------------------------------------------------------
 # Primary Key vs Foreign Key in SQL
-
+   
 **Primary Key:**
 - Uniquely identifies each record in a table
 - Cannot contain NULL values
