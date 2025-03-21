@@ -1,0 +1,30 @@
+GROUP BY in SQL
+The GROUP BY clause in SQL is used to group rows with the same values in a specified column and apply aggregate functions to each group.
+
+✅ Key Points:
+
+Used with aggregate functions (SUM(), AVG(), COUNT(), etc.).
+Groups rows based on column values.
+Returns one row per group instead of individual rows.
+
+---------------------------------------------------------------------------------------------
+
+CREATE TABLE mytable2 (
+    namess VARCHAR(50),
+    citiess VARCHAR(50),
+    statess VARCHAR(50),
+    salarys DECIMAL(10,2)
+);
+INSERT INTO mytable2 (namess, citiess, statess, salarys) VALUES
+('Manoj', 'Trichy', 'Tamilnadu', 45000.76),
+('Aravindd', 'Trichy', 'Tamilnadu', 38250.50),
+('Ajayy', 'Trichy', 'Tamilnadu', 29501.00),
+('Ravi', 'Chennai', 'Tamilnadu', 60000.00),
+('Vignesh', 'Bangalore', 'Karnataka', 55000.00),
+('Prakash', 'Bangalore', 'Karnataka', 65000.00);
+
+select * from mytable2;
+
+SELECT statess, COUNT(*) AS total_employees 
+FROM mytable2 
+GROUP BY statess;
