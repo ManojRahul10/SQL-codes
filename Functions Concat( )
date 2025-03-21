@@ -1,0 +1,18 @@
+CREATE TABLE mytable(
+names varchar(50),
+cities varchar(50),
+states varchar(50),
+code int primary key);
+
+Insert into mytable (names, cities, states,code)
+values
+('Manoj Rahul','Trichy','Tamilnadu',620010),
+('Aravind','Trichy','Tamilnadu',620012),
+('Ajay','Trichy','Tamilnadu',620013);
+
+select names, cities, concat( names, ' from ' , cities) as concat_val from mytable;
+-----------------------------------------
+output: 
+Manoj Rahul from Trichy
+Aravind from Trichy
+Ajay from Trichy
