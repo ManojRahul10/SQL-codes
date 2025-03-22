@@ -102,3 +102,6 @@ SELECT DISTINCT Streamm FROM Student;
 
 --5. Note the output of the following statement.
 SELECT StdName, Sex, Streamm FROM Student WHERE percentagee BETWEEN 70 AND 80;
+
+
+--------------------------------------------------TASK OVER
