@@ -41,3 +41,6 @@ select * from student where percentagee>=80;
 
 --4. To display student name, stream and percentage where percentage of student is more than 80--
 select stdName,Streamm,percentagee from student where percentagee>70;
+
+--5. To display all records of science students whose percentage is more than 75 form student table--
+select * from student where Streamm='Science' and percentagee> 75;
