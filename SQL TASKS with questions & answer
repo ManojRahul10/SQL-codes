@@ -95,7 +95,7 @@ WHERE StdId = 1014;
 DELETE FROM Student WHERE StdID = 1015;
 
 --3. Type the following SQL statement and note the output.
-SELECT * FROM student WHERE stdName LIKE 'G%' ;
+SELECT * FROM student WHERE stdName LIKE 'G%' ; --doesn't show any values
 
 --4. Display all the streamsin student table.
 SELECT DISTINCT Streamm FROM Student;
