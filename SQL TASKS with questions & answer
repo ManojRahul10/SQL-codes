@@ -10,3 +10,22 @@ sClass int,
 Sec varchar(2),
 Streamm VARCHAR(10),
 DOB DATE );
+
+insert into student(stdID,stdName,sex,percentagee,sClass,Sec,Streamm,DOB)
+values
+(1001, 'AKSHRA AGARWAL', 'FEMALE', 70.00, 11, 'A', 'Science', '1996-11-10'),
+(1002, 'ANJANI SHARMA', 'FEMALE', 75.00, 11, 'A', 'Commerce', '1996-09-18'),
+(1003, 'ANSHUL SAXENA', 'MALE', 78.00, 11, 'A', 'Commerce', '1996-11-19'),
+(1004, 'AISHWARYA SINGH', 'FEMALE', 79.00, 11, 'A', 'Commerce', '1996-11-01'),
+(1005, 'AKRITI SAXENA', 'FEMALE', 76.00, 11, 'A', 'Commerce', '1996-09-20'),
+(1006, 'KHUSHI AGARWAL', 'FEMALE', 77.00, 11, 'A', 'Commerce', '2003-09-14'),
+(1007, 'MAAHI AGARWAL', 'FEMALE', 74.00, 11, 'A', 'Science', '1997-04-21'),
+(1008, 'MITALI GUPTA', 'FEMALE', 78.00, 12, 'A', 'Science', '1997-11-26'),
+(1009, 'NIKUNJ AGARWAL', 'MALE', 58.00, 12, 'A', 'Science', '1997-07-12'),
+(1010, 'PARKHI', 'FEMALE', 59.00, 12, 'A', 'Commerce', '1997-12-20'),
+(1011, 'PRAKHAR TIWARI', 'MALE', 43.00, 12, 'A', 'Science', '1997-04-22'),
+(1012, 'RAGHAV GANGWAR', 'MALE', 58.00, 12, 'A', 'Commerce', '1997-12-21'),
+(1013, 'SAHIL SARASWAT', 'MALE', 57.00, 12, 'A', 'Commerce', '1997-08-13'),
+(1014, 'SWATI MISHRA', 'FEMALE', 98.00, 11, 'A', 'Science', '1996-08-13'),
+(1015, 'HARSH AGARWAL', 'MALE', 58.00, 11, 'B', 'Science', '2003-08-28');
+
