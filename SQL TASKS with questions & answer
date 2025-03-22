@@ -38,3 +38,6 @@ select stdName, DOB from student;
 
 --3. To display all students record where percentage is greater of equal to 80 FROM student table.--
 select * from student where percentagee>=80;
+
+--4. To display student name, stream and percentage where percentage of student is more than 80--
+select stdName,Streamm,percentagee from student where percentagee>70;
