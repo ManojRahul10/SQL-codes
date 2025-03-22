@@ -44,3 +44,19 @@ select stdName,Streamm,percentagee from student where percentagee>70;
 
 --5. To display all records of science students whose percentage is more than 75 form student table--
 select * from student where Streamm='Science' and percentagee> 75;
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--Question 3: Open school database, then select student table and use following SQL statements--
+
+--31. To display the STUDENT table structure.
+SP_COLUMNS student;
+
+--2. Toadda column (FIELD)intheSTUDENTtable,forexampleTeacherID as VARCHAR(20);
+alter table student add teacherID varchar(20);
+--3. Type thestatement
+
+--4. Type the statement andpress enterkey,notethenewfieldthatyouhave addedasTeacherID--
+--select * from student--
+--5. Tomodify theTeacherID data type form characterto integer--
+ALTER TABLE student alter column teacherID int ;
