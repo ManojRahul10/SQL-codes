@@ -33,3 +33,5 @@ values
 --To display all the records form STUDENT table--
 select * from student;
 
+--To display ony name and date of birth from the table STUDENT.--
+select stdName, DOB from student;
