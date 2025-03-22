@@ -34,6 +34,7 @@ values
 (1015, 'HARSH AGARWAL', 'MALE', 58.00, 11, 'B', 'Science', '2003-08-28');
 
 
+
 --To display all the records form STUDENT table--
 select * from student;
 
@@ -92,7 +93,7 @@ select * from student where percentagee>=60 and percentagee<=80;
 UPDATE Student SET StdName = 'SWATI VERMA', percentagee = 86
 WHERE StdId = 1014;
 --2. To delete the recordsformstudent table where StdId is 1016.
-DELETE FROM Student WHERE StdID = 1015;
+DELETE FROM Student WHERE StdID = 1015; --it will delete the entire row of the give id
 
 --3. Type the following SQL statement and note the output.
 SELECT * FROM student WHERE stdName LIKE 'G%' ; --doesn't show any values
