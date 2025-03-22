@@ -60,3 +60,24 @@ alter table student add teacherID varchar(20);
 --select * from student--
 --5. Tomodify theTeacherID data type form characterto integer--
 ALTER TABLE student alter column teacherID int ;
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--question 4
+
+--1. ToDrop (Delete) a field forma table.For e.gyouwant to deleteTeacherIDfield.
+alter table student drop column teacherID;
+
+--2. To subtract5 formallstudents percentage and display name and percentage.
+SELECT stdname, percentagee - 5 FROM student;
+--3. Using column alise for example we want to display StdName as Student Name and DOB as Date of Birth then the statement will be.
+SELECT StdName AS "Student Name",DOB As "Date of Birth" FROM Student;
+
+--4.Display the name of allstudents whose stream is not Science
+
+select * from student where Streamm!='Science';
+
+--5. Display all name and percentage where percentage is between 60 and 80
+select * from student where percentagee>=60 and percentagee<=80;
+
+-------------------------------------------------------------------------------
