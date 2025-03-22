@@ -1,0 +1,12 @@
+create database task;
+use task;
+
+create table student(
+stdID int primary key,
+stdName varchar(50) NOT NULL,
+sex varchar (6),
+percentagee Decimal(5,2),
+sClass int,
+Sec varchar(2),
+Streamm VARCHAR(10),
+DOB DATE );
