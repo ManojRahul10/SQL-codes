@@ -35,3 +35,6 @@ select * from student;
 
 --To display ony name and date of birth from the table STUDENT.--
 select stdName, DOB from student;
+
+--3. To display all students record where percentage is greater of equal to 80 FROM student table.--
+select * from student where percentagee>=80;
