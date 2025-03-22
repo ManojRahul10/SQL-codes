@@ -29,3 +29,7 @@ values
 (1014, 'SWATI MISHRA', 'FEMALE', 98.00, 11, 'A', 'Science', '1996-08-13'),
 (1015, 'HARSH AGARWAL', 'MALE', 58.00, 11, 'B', 'Science', '2003-08-28');
 
+
+--To display all the records form STUDENT table--
+select * from student;
+
