@@ -81,3 +81,22 @@ select * from student where Streamm!='Science';
 select * from student where percentagee>=60 and percentagee<=80;
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--question 5
+
+--1. TochangeastudentnamefromSWATIMISHRAtoSWATIVERMAwhoseStdIDis1014and alsochangepercentage 86. UPDATE S
+UPDATE Student SET StdName = 'SWATI VERMA', percentagee = 86
+WHERE StdId = 1014;
+--2. To delete the recordsformstudent table where StdId is 1016.
+DELETE FROM Student WHERE StdID = 1015;
+
+--3. Type the following SQL statement and note the output.
+SELECT * FROM student WHERE stdName LIKE 'G%' ;
+
+
+--4. Display all the streamsin student table.
+SELECT DISTINCT Streamm FROM Student;
+
+
+--5. Note the output of the following statement.
+SELECT StdName, Sex, Streamm FROM Student WHERE percentagee BETWEEN 70 AND 80;
