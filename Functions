@@ -36,6 +36,7 @@ values
 
 --Scalar Function--
 
+
 select UPPER(names) as uppercase_name from mytable;
 
 select lower(names) as uppercase_name from mytable;
