@@ -7,7 +7,7 @@ Used with aggregate functions (SUM(), AVG(), COUNT(), etc.).
 Groups rows based on column values.
 Returns one row per group instead of individual rows.
 
-if we use group by function then where will not work... insted we can use "HAVING "
+if we use group by function then "WHERE" will not work... insted we can use "HAVING "
 ---------------------------------------------------------------------------------------------
 
 CREATE TABLE mytable2 (
