@@ -10,7 +10,7 @@ values
 ('Aravind','Trichy','Tamilnadu',620012),
 ('Ajay','Trichy','Tamilnadu',620013);
 
-select lower(names) as uppercase_name from mytable;
+select lower(names) as uppercase_name from mytable; 
 
 
 
