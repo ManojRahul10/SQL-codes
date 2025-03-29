@@ -21,7 +21,7 @@ INSERT INTO mytable2 (namess, citiess, statess, salarys) VALUES
 ('Ajayy', 'Trichy', 'Tamilnadu', 29501.00),
 ('Ravi', 'Chennai', 'Tamilnadu', 60000.00),
 ('Vignesh', 'Bangalore', 'Karnataka', 55000.00),
-('Prakash', 'Bangalore', 'Karnataka', 65000.00);
+('dharsh', 'Bangalore', 'Karnataka', 65000.00);
 
 select * from mytable2;
 
