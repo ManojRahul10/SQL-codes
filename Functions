@@ -10,7 +10,7 @@ Examples of Scalar Functions:
 String Functions: UPPER(), LOWER(), CONCAT()
 Math Functions: ROUND(), ABS(), FLOOR()
 Date Functions: NOW(), YEAR(), DATEDIFF()
-System Functions: USER(), DATABASE()
+System Functions: USER(), DATABASE() 
 --------------------------------------------------------------------------------------------
 Definition of Aggregate Functions
 Aggregate functions in SQL perform calculations on multiple rows and return a single value as output. They are commonly used with the GROUP BY clause to summarize data.
