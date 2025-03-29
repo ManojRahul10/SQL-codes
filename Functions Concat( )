@@ -1,3 +1,6 @@
+
+used to join two columns to one
+
 CREATE TABLE mytable(
 names varchar(50),
 cities varchar(50),
