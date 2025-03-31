@@ -46,4 +46,6 @@ fetch next 1 rows only;
 3)increase salary of all employees in the "IT" department by 10% =1.1
 update testtt set tsalary= tsalary * 1.1 where tdepartment='it';
 
+4)Delete employees
+delete from testtt where tid=5;
 
