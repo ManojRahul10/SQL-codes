@@ -1,0 +1,32 @@
+
+create table testtt(
+tid int primary key,
+tname varchar(50),
+tage int,
+tdepartment varchar(50),
+tsalary decimal(10,2)
+)
+
+insert into testtt (tid, tname,tage, tdepartment,tsalary)
+values
+(1,'manoj',22,'it',50000.99),
+(2,'aravind',20,'hr',50000.99),
+(3,'ajay',24,'it',50000.99),
+(4,'jack',21,'hr',50000.99),
+(5,'surya',22,'hr',50000.99);
+
+
+
+select*from testtt
+
+update testtt set tsalary=65000.45 where tid = 4
+update testtt set tsalary=75000.45 where tid = 3
+
+--question1 
+
+--1) write a query to fetch all employees from hr departmentr
+select * from testtt where tdepartment='hr';
+--2)fetch whose salary is greater than 50000
+select * from testtt where tsalary>=50000;
+--3)fetch names whose first letter is "A"
+select * from testtt where tname like 'a%';
