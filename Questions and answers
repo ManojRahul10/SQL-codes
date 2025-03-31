@@ -30,3 +30,15 @@ select * from testtt where tdepartment='hr';
 select * from testtt where tsalary>=50000;
 --3)fetch names whose first letter is "A"
 select * from testtt where tname like 'a%';
+
+--2nd
+1) avg salary
+SELECT * 
+FROM testtt 
+WHERE tsalary > (SELECT AVG(tsalary) FROM testtt);
+
+2)second heighest salary
+select * from testtt
+order by tsalary DESC
+offset 1 rows
+fetch next 1 rows only;
