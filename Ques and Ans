@@ -1,0 +1,25 @@
+create table empp(
+eid int primary key,
+ename varchar(50),
+edept_id int
+)
+
+create table deppt(
+edept_id int primary key,
+ddept_name varchar(50)
+)
+
+INSERT INTO empp (eid, ename, edept_id) VALUES
+(101, 'Alice Johnson', 1),
+(102, 'Bob Smith', 2),
+(103, 'Charlie Brown', 3),
+(104, 'David White', 4),
+(105, 'Emma Davis', 5),
+(106, 'Frank Miller', 3)
+
+INSERT INTO deppt (edept_id, ddept_name) VALUES
+(1, 'Human Resources'),
+(2, 'Finance'),
+(3, 'IT'),
+(4, 'Marketing'),
+(5, 'Operations')
