@@ -9,6 +9,7 @@ edept_id int primary key,
 ddept_name varchar(50)
 )
 
+
 INSERT INTO empp (eid, ename, edept_id) VALUES
 (101, 'Alice Johnson', 1),
 (102, 'Bob Smith', 2),
