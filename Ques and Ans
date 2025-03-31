@@ -23,3 +23,12 @@ INSERT INTO deppt (edept_id, ddept_name) VALUES
 (3, 'IT'),
 (4, 'Marketing'),
 (5, 'Operations')
+
+--1) write and sql query to display each employees name along with their department name
+SELECT ename, ddept_name
+FROM empp e
+JOIN deppt d ON e.edept_id = d.edept_id;
+
+--2) Retrieve employees who do not belong to any department (LEFT JOIN & RIGHT JOIN)
+select ename,ddept_name from empp e
+left join deppt d on e.edept_id = d.edept_id
