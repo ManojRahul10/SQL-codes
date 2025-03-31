@@ -1,3 +1,5 @@
+Scenario: A company has an employee table with the following columns;
+id,name,age,department,salary
 
 create table testtt(
 tid int primary key,
