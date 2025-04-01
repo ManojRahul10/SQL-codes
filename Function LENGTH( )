@@ -1,3 +1,5 @@
+find the total length of a string 
+
 CREATE TABLE mytable(
 names varchar(50),
 cities varchar(50),
