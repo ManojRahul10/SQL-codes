@@ -12,8 +12,6 @@ values
 
 select lower(names) as uppercase_name from mytable; 
 
-
-
 ---------------------
 OUTPUT:
 manoj rahul
