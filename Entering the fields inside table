@@ -2,3 +2,4 @@ create table employee(
 employee_id int primary key,
 name VARCHAR (25),
 department_id Int);
+   
