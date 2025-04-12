@@ -83,3 +83,23 @@ JOIN (
 WHERE 
   e.salary > dept_avg.avg_salary;
 
+-- Output
+
+emp_id | emp_name | hire_date | salary | department_id
+-------|----------|-----------|--------|---------------
+2      | Bob      | 2023-01-20| 7000   | 10
+4      | David    | 2023-02-28| 8000   | 20
+7      | Grace    | 2024-01-25| 6500   | 30
+10     | John     | 2024-03-01| 7500   | 20
+
+-- Alternate Query (Using Correlated Subquery)
+
+SELECT *
+FROM employees e
+WHERE salary > (
+  SELECT AVG(salary)
+  FROM employees
+  WHERE department_id = e.department_id
+);
+
+
