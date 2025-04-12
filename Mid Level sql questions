@@ -65,35 +65,6 @@ QUESTION 2:
 Display all employees who earn more than the average salary for their department.
 ===========================================
 
--- Query (Using JOIN)
-
-SELECT 
-  e.*
-FROM 
-  employees e
-JOIN (
-  SELECT 
-    department_id, 
-    AVG(salary) AS avg_salary
-  FROM 
-    employees
-  GROUP BY 
-    department_id
-) dept_avg ON e.department_id = dept_avg.department_id
-WHERE 
-  e.salary > dept_avg.avg_salary;
-
--- Output
-
-emp_id | emp_name | hire_date | salary | department_id
--------|----------|-----------|--------|---------------
-2      | Bob      | 2023-01-20| 7000   | 10
-4      | David    | 2023-02-28| 8000   | 20
-7      | Grace    | 2024-01-25| 6500   | 30
-10     | John     | 2024-03-01| 7500   | 20
-
--- Alternate Query (Using Correlated Subquery)
-
 SELECT *
 FROM employees e
 WHERE salary > (
