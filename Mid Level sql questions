@@ -102,4 +102,27 @@ WHERE salary > (
   WHERE department_id = e.department_id
 );
 
+===========================================
+QUESTION 3:
+Get the second-lowest salary from the employee table without using LIMIT or OFFSET.
+===========================================
+
+-- Query
+
+SELECT MIN(salary) AS second_lowest_salary
+FROM employees
+WHERE salary > (
+  SELECT MIN(salary)
+  FROM employees
+);
+
+-- Output
+
+second_lowest_salary
+----------------------
+4000.00
+
+===========================================
+End of SQL Practice File
+===========================================
 
